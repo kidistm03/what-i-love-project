@@ -1,0 +1,179 @@
+/* ============================================
+   ABOUT.CSS - Paper crafts about page
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef9e8;
+    color: #3e2c1f;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Header (same as index) */
+header {
+    background: linear-gradient(135deg, #f5e6d3, #e8d5b5);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo h1 {
+    font-size: 1.6rem;
+}
+
+.logo h1 i {
+    color: #c46b3f;
+}
+
+.logo p {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+nav a {
+    color: #4a3727;
+    text-decoration: none;
+    margin-left: 1.8rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c46b3f;
+}
+
+/* About hero (gradient) */
+.about-hero {
+    background: linear-gradient(135deg, #e8d5b5, #d9c5a7);
+    color: #3e2c1f;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Content */
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.bio {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.bio i {
+    font-size: 60px;
+    color: #c46b3f;
+    margin-bottom: 15px;
+}
+
+.bio h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.inspiration {
+    background: #fef4e8;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border-left: 5px solid #c46b3f;
+}
+
+.inspiration i {
+    color: #c46b3f;
+    margin-right: 10px;
+}
+
+/* Skills table */
+.skills h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #e2d4c0;
+    padding: 12px;
+    text-align: left;
+}
+
+.skills-table th {
+    background: #d9c5a7;
+    color: #3e2c1f;
+}
+
+.skills-table tr:nth-child(even) {
+    background: #fef9f0;
+}
+
+.skills-table tr:hover {
+    background: #f5e6d3;
+}
+
+/* Footer */
+footer {
+    background: #d9c5a7;
+    text-align: center;
+    padding: 20px;
+    color: #3e2c1f;
+}
+
+footer i {
+    color: #c46b3f;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        margin-top: 15px;
+    }
+    nav a {
+        margin: 0 12px;
+    }
+    .about-hero h2 {
+        font-size: 1.8rem;
+    }
+    .bio {
+        padding: 25px;
+    }
+    .skills-table {
+        font-size: 12px;
+    }
+}
