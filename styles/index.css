@@ -63,7 +63,7 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* ---------- HERO (background image + pseudo‑element overlay) ---------- */
+/*  HERO background image + pseudo‑element overlay */
 .hero {
     background-image: url('https://www.bhg.com/thmb/NkM8ticW5MytHEMbf5c-tgquMlQ=/4000x0/filters:no_upscale():strip_icc()/BHG-VELVET-XMAS-accordian-ornaments-1lKb-D3SalH8_-9LcroI9G-5b4075613d7144de8e8129a77db09e94.jpg');
     background-size: cover;
@@ -215,49 +215,6 @@ nav a:hover {
 .list-box li:nth-child(odd) {
     color: #c46b3f;
     font-weight: 500;
-}
-
-/* ---------- TABLE SECTION ---------- */
-.table-section {
-    padding: 60px 20px;
-    text-align: center;
-    background: white;
-}
-
-.table-section h3 {
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-}
-
-table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background: white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-th, td {
-    border: 1px solid #e2d4c0;
-    padding: 12px;
-    text-align: center;
-}
-
-th {
-    background: #d9c5a7;
-    color: #3e2c1f;
-    font-weight: 600;
-}
-
-tr:nth-child(even) {
-    background: #fef9f0;
-}
-
-tr:hover {
-    background: #f5e6d3;
-    transition: 0.2s;
 }
 
 /* ---------- LINKS SECTION (internal + external) ---------- */
