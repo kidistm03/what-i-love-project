@@ -210,7 +210,30 @@ nav a:hover {
     color: #c46b3f;
     font-weight: 500;
 }
+/* ---------- LINKS SECTION (internal + external) ---------- */
+.links {
+    background: #e8d5b5;
+    text-align: center;
+    padding: 25px;
+}
 
+.links a {
+    color: #4a3727;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: #c46b3f;
+    text-decoration: underline;
+}
+
+/* external link icon */
+.links a i {
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
 /* ---------- FOOTER ---------- */
 footer {
     background: #d9c5a7;
