@@ -55,7 +55,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* ========== CSS GRID GALLERY ========== */
+/*CSS GRID GALLERY */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,15 +97,9 @@ nav a:hover {
     margin-bottom: 5px;
     color: #4a3727;
 }
-
-.info p {
-    color: #8b694a;
-    font-size: 0.85rem;
-}
-
 /* pseudo-element example (decorative) */
 .card::after {
-    content: "✂️";
+    
     position: absolute;
     opacity: 0;
     transition: 0.3s;
