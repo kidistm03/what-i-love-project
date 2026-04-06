@@ -112,35 +112,6 @@ nav a:hover {
     opacity: 1;
 }
 
-/* Favorites section (ordered list) */
-.favorites {
-    background: #fef4e8;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.favorites h3 {
-    font-size: 1.8rem;
-    margin-bottom: 25px;
-}
-
-.favorites ol {
-    display: inline-block;
-    text-align: left;
-    background: white;
-    padding: 30px 50px;
-    border-radius: 24px;
-}
-
-.favorites li {
-    margin: 12px 0;
-    font-size: 1rem;
-}
-
-.favorites li:nth-child(odd) {
-    color: #c46b3f;
-}
-
 /* Footer */
 footer {
     background: #d9c5a7;
