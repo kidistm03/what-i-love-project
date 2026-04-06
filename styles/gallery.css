@@ -164,13 +164,18 @@ footer i {
 }
 
 /* Media Queries */
+/* Tablet */
 @media (max-width: 1024px) {
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+    .gallery-hero h2 {
+        font-size: 2rem;
+    }
 }
 
+/* Mobile */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -183,7 +188,7 @@ footer i {
         margin: 0 12px;
     }
     .gallery-hero h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .gallery-grid {
         grid-template-columns: 1fr;
@@ -194,5 +199,8 @@ footer i {
     }
     .favorites ol {
         padding: 20px 30px;
+    }
+    .favorites li {
+        font-size: 0.9rem;
     }
 }

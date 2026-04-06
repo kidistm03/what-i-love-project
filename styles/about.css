@@ -147,6 +147,20 @@ footer i {
 }
 
 /* Media Queries */
+/* Tablet */
+@media (max-width: 1024px) {
+    .about-hero h2 {
+        font-size: 2rem;
+    }
+    .bio {
+        padding: 30px;
+    }
+    .skills-table {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -159,12 +173,18 @@ footer i {
         margin: 0 12px;
     }
     .about-hero h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .bio {
-        padding: 25px;
+        padding: 20px;
+    }
+    .bio h3 {
+        font-size: 1.4rem;
     }
     .skills-table {
-        font-size: 12px;
+        font-size: 11px;
+    }
+    .skills-table th, .skills-table td {
+        padding: 8px;
     }
 }

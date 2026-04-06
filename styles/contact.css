@@ -205,6 +205,21 @@ footer i {
 }
 
 /* Media Queries */
+/* Tablet */
+@media (max-width: 1024px) {
+    .contact-hero h2 {
+        font-size: 2rem;
+    }
+    .contact-form {
+        margin: 40px 30px;
+        padding: 35px;
+    }
+    .radio-group, .checkbox-group {
+        gap: 15px;
+    }
+}
+
+/* Mobile */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -217,7 +232,7 @@ footer i {
         margin: 0 12px;
     }
     .contact-hero h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .contact-form {
         margin: 30px 15px;
@@ -227,5 +242,9 @@ footer i {
         flex-direction: column;
         gap: 10px;
         align-items: flex-start;
+    }
+    .social-icons i {
+        font-size: 1.6rem;
+        margin: 0 10px;
     }
 }
