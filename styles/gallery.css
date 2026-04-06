@@ -29,11 +29,6 @@ header {
     position: sticky;
     top: 0;
 }
-
-.logo h1 i {
-    color: #c46b3f;
-}
-
 nav a {
     color: #4a3727;
     text-decoration: none;

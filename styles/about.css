@@ -35,9 +35,7 @@ header {
     font-size: 1.6rem;
 }
 
-.logo h1 i {
-    color: #c46b3f;
-}
+
 
 .logo p {
     font-size: 0.8rem;
@@ -60,7 +58,8 @@ nav a:hover {
     background: linear-gradient(135deg, #e8d5b5, #d9c5a7);
     color: #3e2c1f;
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
+    height: 180px;
 }
 
 .about-hero h2 {
@@ -85,7 +84,7 @@ nav a:hover {
 }
 
 .bio i {
-    font-size: 60px;
+    font-size: 40px;
     color: #c46b3f;
     margin-bottom: 15px;
 }
