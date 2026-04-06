@@ -230,7 +230,7 @@ nav a:hover {
   font-size: 0.8rem;
   margin-left: 4px;
 }
-/* ---------- FOOTER ---------- */
+/*  FOOTER */
 footer {
   background: #d9c5a7;
   color: #3e2c1f;
@@ -242,7 +242,7 @@ footer i {
   color: #c46b3f;
 }
 
-/* ---------- MEDIA QUERIES (responsive) ---------- */
+/* MEDIA QUERIES (responsive)  */
 /* Tablet */
 @media (max-width: 1024px) {
     .hero-content h2 {
