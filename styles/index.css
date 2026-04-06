@@ -15,7 +15,7 @@ h1,h2,h3 {
   font-family: "Playfair Display", serif;
 }
 
-/* ---------- HEADER (sticky + gradient) ---------- */
+/* HEADER (sticky + gradient)*/
 header {
   background: linear-gradient(135deg, #f5e6d3, #e8d5b5);
   color: #4a3727;
@@ -54,7 +54,7 @@ nav a:hover {
 
 /*  HERO background image + pseudo‑element overlay */
 .hero {
-  background-image: url("https://www.bhg.com/thmb/NkM8ticW5MytHEMbf5c-tgquMlQ=/4000x0/filters:no_upscale():strip_icc()/BHG-VELVET-XMAS-accordian-ornaments-1lKb-D3SalH8_-9LcroI9G-5b4075613d7144de8e8129a77db09e94.jpg");
+  background-image: url("https://cms.interiorcompany.com/wp-content/uploads/2024/08/paper-lantern-art-craft-ideas-for-wall-decoration.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-/* ---------- WHY SECTION (flexbox) ---------- */
+/*  WHY SECTION (flexbox) */
 .why {
   padding: 60px 20px;
   text-align: center;
